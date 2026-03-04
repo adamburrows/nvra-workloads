@@ -11,7 +11,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 
-WORLD_SIZE = int(os.environ.get("WORLD_SIZE", 1))
+#WORLD_SIZE = int(os.environ.get("WORLD_SIZE", 1))
 
 
 class Net(nn.Module):
